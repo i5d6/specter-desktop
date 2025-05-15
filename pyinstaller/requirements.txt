@@ -10,30 +10,29 @@ altgraph==0.17 \
     # via
     #   macholib
     #   pyinstaller
-future==0.18.2 \
-    --hash=sha256:b1bead90b70cf6ec3f0710ae53a525360fa360d306a86583adc6bf83a4db537d
+future==0.18.3 \
+    --hash=sha256:34a17436ed1e96697a86f9de3d15a3b0be01d8bc8de9c1dffd59fb8234ed5307
     # via pefile
 macholib==1.14 \
     --hash=sha256:0c436bc847e7b1d9bda0560351bf76d7caf930fb585a828d13608839ef42c432 \
     --hash=sha256:c500f02867515e6c60a27875b408920d18332ddf96b4035ef03beddd782d4281
-    # via
-    #   -r requirements.in
-    #   pyinstaller
+    # via -r requirements.in
 pefile==2022.5.30 \
     --hash=sha256:a5488a3dd1fd021ce33f969780b88fe0f7eebb76eb20996d7318f307612a045b
     # via -r requirements.in
-pyinstaller==5.2 \
-    --hash=sha256:03984eed0baa252ea9854eb0785a1c40ac033c5c28d3abdae7d820da734aed5a \
-    --hash=sha256:1061f7a6de055007949ec9ad1c6a080b93e102b2a288c8ff88f65e5d7716d4aa \
-    --hash=sha256:4def5b6433b4233b2b53ef92ac351788edb11e4d1e08123b9c90e21a7b310a41 \
-    --hash=sha256:5d170f7c4c402c820b4c5cf7fde61dd9741bf0456342b19b207e29041d75aa30 \
-    --hash=sha256:5efc1b3ffb13fe50a51305fe57fb9e6e7bce00d009c16dd3cb76ea4d702a04ab \
-    --hash=sha256:60c53ba54651f22f75dce2bcf49f0a1bcd03c729ced15f2efabad28e0ea0c938 \
-    --hash=sha256:6ecce857491bc4f477fcbde1b430d63b957d99bc511fa7e79136c07f831fc505 \
-    --hash=sha256:9d44f331f96fa0ef556cf5304f8b906ca20f55503ddd7aa2a914e87bc58e2cc9 \
-    --hash=sha256:a21c07dd026bc127684e7a451320bf59cac2c85bea4cb412f7193876ad741d58 \
-    --hash=sha256:dda3a4787fa4498bb9e688f81bed918f061bd583c8ff0e47881a5422a4b2093b \
-    --hash=sha256:f10b19ad4f66ccad16574ff1979cc15e1ea010f8577292500125dd45abcd8303
+pyinstaller==5.13.1 \
+    --hash=sha256:086e68aa1e72f6aa13b9d170a395755e2b194b8ab410caeed02d16b432410c8c \
+    --hash=sha256:2519db3edec87d8c33924c2c4b7e176d8c1bbd9ba892d77efb67281925e621d6 \
+    --hash=sha256:29341d2e86d5ce7df993e797ee96ef679041fc85376d31c35c7b714085a21299 \
+    --hash=sha256:3c9cfe6d5d2f392d5d47389f6d377a8f225db460cdd01048b5a3de1d99c24ebe \
+    --hash=sha256:5d801db3ceee58d01337473ea897e96e4bb21421a169dd7cf8716754617ff7fc \
+    --hash=sha256:78d1601a11475b95dceff6eaf0c9cd74d93e3f47b5ce4ad63cd76e7a369d3d04 \
+    --hash=sha256:a2e7a1d76a7ac26f1db849d691a374f2048b0e204233028d25d79a90ecd1fec8 \
+    --hash=sha256:aa609aca62edd8cdcf7740677a21525e6c23b5e9a8f821ec8a80c68947771b5d \
+    --hash=sha256:ad6e31a8f35a463c6140e4cf979859197edc9831a1039253408b0fe5eec274dc \
+    --hash=sha256:b70ebc10811b30bbea4cf5b81fd1477db992c2614cf215edc987cda9c5468911 \
+    --hash=sha256:b8d4000af72bf72f8185d420cd0a0aee0961f03a5c3511dc3ff08cdaef0583de \
+    --hash=sha256:e033218c8922f0342b6095fb444ecb3bc6747dfa58cac5eac2b985350f4b681e
     # via -r requirements.in
 pyinstaller-hooks-contrib==2022.8 \
     --hash=sha256:c4210fc50282c9c6a918e485e0bfae9405592390508e3be9fde19acc2213da56 \
@@ -45,5 +44,6 @@ pywin32-ctypes==0.2.0 \
     # via -r requirements.in
 
 # WARNING: The following packages were not pinned, but pip requires them to be
-# pinned when the requirements file includes hashes. Consider using the --allow-unsafe flag.
+# pinned when the requirements file includes hashes and the requirement is not
+# satisfied by a package already installed. Consider using the --allow-unsafe flag.
 # setuptools
