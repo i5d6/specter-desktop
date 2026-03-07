@@ -9,7 +9,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
       # This version should match what you can find in .pre-commit-config.yaml
-      - uses: psf/black@22.3.0 # https://black.readthedocs.io/en/stable/integrations/github_actions.html
+      - uses: psf/black@26.3.0 # https://black.readthedocs.io/en/stable/integrations/github_actions.html
         with:
             options: "--check --verbose"
             src: "./src"
